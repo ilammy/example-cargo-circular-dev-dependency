@@ -1,0 +1,10 @@
+[package]
+name = "example"
+version = "0.1.0"
+
+[lib]
+name = "example"
+path = "lib.rs"
+
+[dev-dependencies]
+utils = { path = "tests/utils" }
